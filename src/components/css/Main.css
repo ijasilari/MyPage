@@ -1,13 +1,10 @@
 .mainContainer {
     background-color: #111e27;
     width: 100%;
-    height: 1130px;
+    height: 1000px;
   }
 
   .innerContainer{
-    position: absolute;
-    top: 50%;
-    top: 30%;
     margin-top: -25px;
     margin-left: 120px;
     height: 500px;
@@ -19,8 +16,21 @@
     color: azure;
     font-size: 4rem;
     font-weight: 100;
+    margin: 0;
+    padding-top: 250px;
     
 }
+
+@media (max-width: 440px){
+  .innerContainer{
+    text-align: center;
+    margin-left: 0px;
+  }
+  .innerContainer h1{
+    font-size: 2.5rem;
+ }
+}
+  
 .innerContainer p {
     color: #aaacab;
     font-size: 22px;
@@ -37,9 +47,11 @@
 .skillsContainer{
   align-items: left;
   text-align: left;
-  width: 40%;
+  width: fit-content;
   height: fit-content;
-  margin: auto auto;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 10px;
 }
 .skillContainer{
   max-width: 700px;

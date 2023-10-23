@@ -1,24 +1,18 @@
 import { Link } from "react-router-dom";
-import "./css/Navbar.css";
+import "../css/Navbar.css";
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
 
 const Navbar = () => {
-  
 
   return (
     <div className="navcontainer">
       <Link to="/" id="logo">Ilari Ijäs</Link>
       <header className="header">
-        <nav>
-          <ul>
-          <li>
-              <Link to="/interests">Interest</Link>
-            </li>
-            <li>
-              <Link to="/contacts">Contacts</Link>
-            </li>
-          </ul>
-        </nav>
+          <Navigation />
+          <MobileNavigation />
       </header>
+      
     </div>
       
     );

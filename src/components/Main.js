@@ -35,7 +35,7 @@ const Main = () => {
                         <p>I have used <strong>JavaScript</strong>, <strong>HTML</strong> and <strong>CSS</strong> to make web applications for school projects.
                         I have some experience with Firebase.
                         I am more familiar with frontend,
-                        but I'm excited to learn backend in currently ongoing courses. JavaScript is my second most used language.
+                        but I'm excited to learn backend in currently ongoing courses. JavaScript is my second most used language. In addition, I'm currently practicing web development on my own through online courses.
                         </p>
                         <p>Enviroments and libraries I have worked with:</p>
                         <ul className="envList">
@@ -50,7 +50,7 @@ const Main = () => {
                     <div className="skillContainer">
                         <h2>Python</h2>
                         <p >I have learned Python on my own using online courses. I have also used Python in school to do <strong>machine learning </strong>
-                            and <strong>data analytics</strong> using Spyder. 
+                            and <strong>data analytics</strong> using Spyder.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Main = () => {
                 <div className="parentSkillcontainer">
                     <div className="skillContainer">
                         <h2>C#</h2>
-                        <p>I have done two <strong>Unity</strong> online courses where I have used C# to make videogames. 
+                        <p>I have done two <strong>Unity</strong> online courses where I have used C# to make videogames.
                         </p>
                     </div>
                 </div>
@@ -75,6 +75,9 @@ const Main = () => {
                         <p>Third year Software Engineering student. First two years I studied Electrical and Automation Engineering.
                         </p>
                     </div>
+
+                </div>
+                <div className="parentSkillContainer">
                     <div className="skillContainer">
                         <h2>Liedon lukio</h2>
                         <p>Finnish Matriculation Examination (2016-2019)
@@ -85,7 +88,7 @@ const Main = () => {
             <br></br>
             <br></br>
         </div>
-        
+
     );
 
 };

@@ -8,7 +8,7 @@ const Interests = () => {
                 <div className="parentSkillContainer">
                     <div className="skillContainer">
                         <h2>Sports</h2>
-                        <p> During winter I like to snowboard and during summer I like to run. I also go swimming couple times a week.</p>
+                        <p> During winter I like to snowboard and swim. At summer I like to run. I also train at the gym.</p>
                     </div>
                 </div>
                 <div className="parentSkillcontainer">
