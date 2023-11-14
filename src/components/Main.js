@@ -15,10 +15,29 @@ const Main = () => {
 
             <div className="skillsContainer">
                 <h1 className="heading">My Skills</h1>
+                <div className="parentSkillcontainer">
+                    <div className="skillContainer">
+                        <h2>Web Development</h2>
+                        <p>I have used <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong> and <strong>React</strong> to make web applications for school projects.
+
+                        I have some experience with Firebase.
+                        I am more familiar with frontend,
+                        but I'm excited to learn backend in currently ongoing courses. I'm most interested in web development. In addition, I'm currently practicing web development on my own through online courses.
+                        </p>
+                        <p>Technologies I have worked with:</p>
+                        <ul className="envList">
+                            <li>- <strong>React</strong></li>
+                            <li>- <strong>Node.js</strong></li>
+                            <li>- <strong>MySQL and PostgreSQL</strong></li>
+                            <li>- MUI: React material UI</li>
+                            <li>- React native</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="parentSkillContainer">
                     <div className="skillContainer">
                         <h2>C++</h2>
-                        <p >Good understanding of the language and my most used language.
+                        <p>Good understanding of the language.
                         I have mainly used it in school projects.
                         </p>
                         <p>Enviroments I have worked with:</p>
@@ -26,23 +45,6 @@ const Main = () => {
                             <li>- Qt</li>
                             <li>- Arduino</li>
                             <li>- Visual studio</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="parentSkillcontainer">
-                    <div className="skillContainer">
-                        <h2>JavaScript</h2>
-                        <p>I have used <strong>JavaScript</strong>, <strong>HTML</strong> and <strong>CSS</strong> to make web applications for school projects.
-                        I have some experience with Firebase.
-                        I am more familiar with frontend,
-                        but I'm excited to learn backend in currently ongoing courses. JavaScript is my second most used language. In addition, I'm currently practicing web development on my own through online courses.
-                        </p>
-                        <p>Enviroments and libraries I have worked with:</p>
-                        <ul className="envList">
-                            <li>- <strong>React</strong></li>
-                            <li>- <strong>Node.js</strong></li>
-                            <li>- React native</li>
-                            <li>- Visual studio code</li>
                         </ul>
                     </div>
                 </div>
@@ -72,7 +74,7 @@ const Main = () => {
                 <div className="parentSkillcontainer">
                     <div className="skillContainer">
                         <h2>Tampere University of Applied Sciences</h2>
-                        <p>Third year Software Engineering student. First two years I studied Electrical and Automation Engineering.
+                        <p>Fourth year Software Engineering student. First two years I studied Electrical and Automation Engineering.
                         </p>
                     </div>
 
